@@ -1,7 +1,7 @@
 # Demir-Art-Angular
 
 ## This is the frontend part of the Demir-art application.<br>
-The application is built using Angular with Typescript. The frontend itself is hosted on Firebase.<br>
+The application's frontend is built using Angular with Typescript. The frontend itself is hosted on Firebase.<br>
 Here is the link of the application itself - <a href="https://demirart-app.web.app" target="blank">Click here.</a><br>
 And here is the link to the backend code. <a href="https://github.com/Imran-Sehic/Demir-Art-Spring-Boot" target="blank">Click here</a><br>
 And if you are from Bosnia and Herzegovina you can even buy an artwork. The seller is shipping countrywide! 😁<br><br>
