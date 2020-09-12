@@ -1,0 +1,94 @@
+.details{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: "Titillium Web", sans-serif;
+    padding-top: 100px;
+}
+
+img{
+    width: 250px;
+}
+
+input{
+    border: none;
+    border-bottom: 2px solid rgb(212, 212, 212);
+    transition: all 0.3s ease;
+    outline: none;
+    width: 300px;
+}
+
+input:focus{
+    border-bottom: 2px solid rgb(87, 87, 218);
+}
+
+button{
+    color: white;
+    background: rgb(87, 87, 218);
+    font-size: 15px;
+    width: 300px;
+    border: none;
+    font-family: "Titillium Web", sans-serif;
+    transition: all 0.3s ease;
+}
+
+button:hover{
+    color: white;
+    background: rgb(167, 167, 212);
+}
+
+.pictureInfo{
+    text-align: center;
+    width: 50%;
+}
+
+.description{
+    width: 80%;
+    margin: auto;
+}
+
+.buyerInfo{
+    text-align: center;
+    width: 50%;
+    font-size: 26px;
+}
+
+.buyerInfo h3{
+    font-size: 25px;
+}
+
+@media (min-width: 350px) and (max-width: 700px) {
+    .details{
+        display: block;
+    }
+
+    .pictureInfo{
+        text-align: center;
+        width: 100%;
+    }
+
+    .buyerInfo{
+        text-align: center;
+        width: 100%;
+    }
+
+}
+
+@media (min-width: 700px) and (max-width: 1000px) {
+    .pictureInfo{
+        font-size: 15px;
+    }
+
+    img{
+        width: 200px;
+    }
+
+    input{
+        width: 240px;
+    }
+
+    button{
+        font-size: 13px;
+        width: 240px;
+    }
+}

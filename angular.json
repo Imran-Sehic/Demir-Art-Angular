@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "pictures-shop"
+    }
+  },
+  "defaultProject": "pictures-shop",
+  "cli": {
+    "analytics": false
+  }
 }

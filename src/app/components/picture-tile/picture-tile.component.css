@@ -1,0 +1,61 @@
+.picturesContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+    margin: 10px;
+}
+
+.picturesContainer div{
+    align-self: center;
+}
+
+img{
+    transition: 0.5s ease;
+    width: 100%;
+    max-height: 285px;
+}
+
+.availablePicture:hover{
+    cursor: pointer;
+}
+
+.sold{
+    position: relative;
+}
+
+.soldMessage{
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 700;
+    text-align: center;
+    padding: 5px 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(255, 66, 66);
+    color: white;
+    text-transform: uppercase;
+}
+
+@media (min-width: 360px) and (max-width: 550px){
+    .picturesContainer{
+        display: flex;
+        flex-direction: column;
+    }
+
+    img{
+        max-height: 100%;
+    }
+}
+
+@media (min-width: 550px) and (max-width: 770px){
+    .picturesContainer{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (min-width: 770px) and (max-width: 1100px){
+    .picturesContainer{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}

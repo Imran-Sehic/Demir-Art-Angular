@@ -1,0 +1,24 @@
+.header {
+  position: fixed;
+  text-align: center;
+  font-size: 35px;
+  z-index: 30;
+  background: linear-gradient(
+    to right,
+    rgb(170, 170, 170),
+    rgb(228, 228, 228),
+    rgb(170, 170, 170)
+  );
+  width: 100%;
+  padding: 10px 0 10px 0;
+  font-family: "Satisfy", cursive;
+  font-weight: 700;
+  text-shadow: -1px 1px 0 rgb(250, 229, 38), 1px 1px 0 rgb(250, 229, 38),
+    1px -1px 0 rgb(250, 229, 38), -1px -1px 0 rgb(250, 229, 38);
+}
+
+i {
+  font-size: 22px;
+  text-shadow: -1px 1px 0 rgb(250, 229, 38), 1px 1px 0 rgb(250, 229, 38),
+    1px -1px 0 rgb(250, 229, 38), -1px -1px 0 rgb(250, 229, 38);
+}

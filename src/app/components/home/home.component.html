@@ -1,0 +1,8 @@
+<div>
+    <app-about></app-about>
+    <h1 *ngIf="areThereImages === 'loading'">Učitavanje slika...</h1>
+    <h1 *ngIf="areThereImages === 'no'">Nemamo slika trenutno!</h1>
+    <div class="pictures">
+        <app-picture-tile [pictures]="pictures"></app-picture-tile>
+    </div>
+</div>

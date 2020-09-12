@@ -1,0 +1,13 @@
+<div class="picturesContainer">
+    <div *ngFor="let picture of pictures">
+        <div *ngIf="picture.sold === 'no'">
+            <img class="availablePicture" (click)="goToPicture(picture.id)" src="{{picture.imageUrl}}" alt="image">
+        </div>
+        <div *ngIf="picture.sold ==='yes'">
+            <div class="sold">
+                <img src="{{picture.imageUrl}}" alt="image">
+                <div class="soldMessage">Prodano</div>
+            </div>
+        </div>
+    </div>
+</div>

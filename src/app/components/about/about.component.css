@@ -1,0 +1,78 @@
+.about {
+  padding-top: 80px;
+  margin: 0 10px;
+  font-size: 25px;
+  font-family: "Titillium Web", sans-serif;
+}
+
+.info {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-image: url(../../../assets/img/aboutbg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 50px 0 50px 0;
+  font-size: 22px;
+}
+
+i {
+  color: gray;
+  font-size: 27px;
+}
+
+.fa-instagram:hover {
+  color: rgb(209, 79, 101);
+}
+
+.fa-facebook-square:hover {
+  color: rgb(68, 95, 173);
+}
+
+a {
+  margin: 0 5px 0 5px;
+}
+
+.biography {
+  width: 50%;
+}
+
+.profileImg {
+  width: 200px;
+  border-radius: 50%;
+}
+
+.contact {
+  font-size: 18px;
+  background-color: rgb(245, 243, 243);
+  text-align: center;
+  width: 100%;
+  padding: 15px 0 15px 0;
+}
+
+@media (min-width: 360px) and (max-width: 710px) {
+  .info {
+    display: block;
+    text-align: center;
+    width: 100%;
+  }
+
+  .biography {
+    width: 80%;
+    font-size: 17px;
+    margin: auto;
+  }
+}
+
+@media (min-width: 710px) and (max-width: 1300px) {
+  .info {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .biography {
+    width: 60%;
+    font-size: 18px;
+  }
+}
