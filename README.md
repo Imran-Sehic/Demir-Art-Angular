@@ -6,4 +6,4 @@ Here is the link of the application itself. <a href="https://demirart-app.web.ap
 And here is the link to the backend code. <a href="https://github.com/Imran-Sehic/Demir-Art-Spring-Boot" target="blank">Click here</a><br><br>
 Below are some of the screenshots of the application itself.<br>
 
-<p align="center"><img src="screenshots/screenshot1.png" height=300>&nbsp;&nbsp;<img src="screenshots/screenshot4.jpg" height=300></p></br>
+<p align="center"><img src="screenshots/screenshot1.png" height=300>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="screenshots/screenshot4.jpg" height=300></p></br>
