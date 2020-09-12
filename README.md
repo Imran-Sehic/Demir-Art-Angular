@@ -2,4 +2,4 @@
 
 This is the frontend part of the Demir-art application.<br>
 The application is built using Angular with Typescript. The frontend itself is hosted on Firebase.<br>
-Here is the link of the application itself <a href="https://demirart-app.web.app"></a>
+Here is the link of the application itself <a href="https://demirart-app.web.app">Click here</a>
