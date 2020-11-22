@@ -1,28 +1,30 @@
-<div *ngIf="picture.sold === 'yes'">{{returnToHome()}}</div>
-<div class="details">
-    <div class="pictureInfo">
-        <img src="{{picture.imageUrl}}" alt="pictureImg">
-        <h3>{{picture.name}}</h3>
-        <div class="description">
-            {{picture.description}}
+<div *ngIf="pictureLoaded">
+    <div *ngIf="picture.sold === 'yes'">{{returnToHome()}}</div>
+    <div class="details">
+        <div class="pictureInfo">
+            <img src="{{picture.image_url}}" alt="pictureImg">
+            <h3>{{picture.name}}</h3>
+            <div class="description">
+                {{picture.description}}
+            </div>
         </div>
-    </div>
-    <div class="buyerInfo">
-        <h3>Unesite svoje podatke prodavaču</h3>
-        <form [formGroup]="createInfoForm">
-            <input [formControlName]="'name'" placeholder="Ime" type="text"><br>
-            <input [formControlName]="'lastname'" placeholder="Prezime" type="text"><br>
-            <input [formControlName]="'cellphone'" placeholder="Tel." type="number"><br><br>
-            <button (click)="sendInfo()">Pošalji</button><br>
-            <span style="font-size: 16px; color: rgb(255, 66, 66);" *ngIf="submitted === 'no'">
-                Popunite sva polja!
-            </span>
-            <span style="font-size: 16px; color: black;" *ngIf="submitted === 'wait'">
-                Slanje u toku...
-            </span>
-            <span style="font-size: 16px; color: rgb(79, 190, 69);" *ngIf="submitted === 'yes'">
-                Poslato! <span style="color: black;">Očekujte odgovor od strane prodavača.</span>
-            </span><br><br>
-        </form>
+        <div class="buyerInfo">
+            <h3>Unesite svoje podatke prodavaču</h3>
+            <form [formGroup]="createInfoForm">
+                <input [formControlName]="'name'" placeholder="Ime" type="text"><br>
+                <input [formControlName]="'lastname'" placeholder="Prezime" type="text"><br>
+                <input [formControlName]="'cellphone'" placeholder="Tel." type="number"><br><br>
+                <button (click)="sendInfo()">Pošalji</button><br>
+                <span style="font-size: 16px; color: rgb(255, 66, 66);" *ngIf="submitted === 'no'">
+                    Popunite sva polja!
+                </span>
+                <span style="font-size: 16px; color: black;" *ngIf="submitted === 'wait'">
+                    Slanje u toku...
+                </span>
+                <span style="font-size: 16px; color: rgb(79, 190, 69);" *ngIf="submitted === 'yes'">
+                    Poslato! <span style="color: black;">Očekujte odgovor od strane prodavača.</span>
+                </span><br><br>
+            </form>
+        </div>
     </div>
 </div>

@@ -1,7 +1,7 @@
 export class PictureModel {
-    id: number;
+    _id: string;
     name: string;
     description: string;
-    imageUrl: string;
+    image_url: string;
     sold: string;
 }

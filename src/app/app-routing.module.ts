@@ -5,7 +5,7 @@ import { HomeComponent } from './components/home/home.component';
 
 const routes: Routes = [
   {path: 'pictures', component: HomeComponent},
-  {path: 'pictures/:id', component: PictureComponent},
+  {path: 'pictures/:_id', component: PictureComponent},
   {path: '**', redirectTo: 'pictures', pathMatch: 'full'}
 ];
 

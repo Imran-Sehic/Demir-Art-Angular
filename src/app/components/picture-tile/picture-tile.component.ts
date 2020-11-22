@@ -15,8 +15,8 @@ export class PictureTileComponent implements OnInit {
 
   ngOnInit(): void {}
 
-  goToPicture(id: number): void {
-    this.router.navigateByUrl('/pictures/' + id);
+  goToPicture(_id: string): void {
+    this.router.navigateByUrl('/pictures/' + _id);
   }
 
 }

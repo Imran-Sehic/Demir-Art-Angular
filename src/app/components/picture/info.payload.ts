@@ -2,5 +2,5 @@ export class SendInfoPayload{
     name: string;
     lastname: string;
     cellphone: number;
-    imageUrl: string;
+    image_url: string;
 }
