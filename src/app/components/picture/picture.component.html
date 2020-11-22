@@ -1,8 +1,13 @@
+<div *ngIf="!pictureLoaded" style="position: absolute; top: 25%; left: 50%; transform: translateX(-50%);">
+    <p style="color: rgb(15, 15, 15); font-family: 'Titillium Web', sans-serif; font-size: 23px; font-weight: bold;">
+        Učitavanje...
+    </p>
+</div>
 <div *ngIf="pictureLoaded">
     <div *ngIf="picture.sold === 'yes'">{{returnToHome()}}</div>
     <div class="details">
         <div class="pictureInfo">
-            <img src="{{picture.image_url}}" alt="pictureImg">
+            <img src="{{(picture.image_url)}}" alt="pictureImg">
             <h3>{{picture.name}}</h3>
             <div class="description">
                 {{picture.description}}
