@@ -11,7 +11,7 @@ export class InfoService {
   constructor(private http: HttpClient) { }
 
   sendInfo(infoPayload: SendInfoPayload): Observable<any> {
-    return this.http.post('https://demirart-app.herokuapp.com/info/', infoPayload);
+    return this.http.post('http://localhost:8080/info/', infoPayload);
   }
 
 }

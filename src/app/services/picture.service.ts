@@ -11,11 +11,11 @@ export class PictureService {
   constructor(private http: HttpClient) { }
 
   getAllPictures(): Observable<Array<PictureModel>>{
-    return this.http.get<Array<PictureModel>>('https://demirart-app.herokuapp.com/pictures/');
+    return this.http.get<Array<PictureModel>>('http://localhost:8080/pictures/');
   }
 
   getPicture(_id: string): Observable<PictureModel> {
-    return this.http.get<PictureModel>('https://demirart-app.herokuapp.com/pictures/' + _id);
+    return this.http.get<PictureModel>('http://localhost:8080/pictures/' + _id);
   }
   
 }
