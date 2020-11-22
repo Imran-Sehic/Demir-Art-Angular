@@ -1,27 +1,12 @@
-# PicturesShop
+# Demir-Art-Angular
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.4.
+## This is the frontend part of the Demir-art application.<br>
+The application's frontend is built using Angular with Typescript. The frontend itself is hosted on Firebase.<br>
+Here is the link of the application itself - <a href="https://demirart-app.web.app">Click here</a><br>
+And here is the link to the backend code - <a href="https://github.com/Imran-Sehic/Demir-Art-Spring-Boot">Click here</a><br>
+And if you are from Bosnia and Herzegovina you can even buy an artwork. The seller is shipping countrywide! 😁<br><br>
+Below are some of the screenshots of the application itself.<br><br>
 
-## Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+<p align="center"><img src="screenshots/screenshot1.png" height=300>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="screenshots/screenshot4.jpg" height=300></p></br><br>
+<p align="center"><img src="screenshots/screenshot2.png" height=300>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="screenshots/screenshot5.jpg" height=300></p></br><br>
+<p align="center"><img src="screenshots/screenshot3.png" height=300>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="screenshots/screenshot6.jpg" height=300></p>
